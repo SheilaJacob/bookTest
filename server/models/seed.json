@@ -1,0 +1,30 @@
+{
+    "errors": {
+        "title": {
+            "message": "Title is required",
+            "name": "ValidatorError",
+            "properties": {
+                "message": "Title is required",
+                "type": "required",
+                "path": "title"
+            },
+            "kind": "required",
+            "path": "title"
+        },
+        "numberOfPages": {
+            "message": "Pages is required",
+            "name": "ValidatorError",
+            "properties": {
+                "message": "Pages is required",
+                "type": "required",
+                "path": "numberOfPages"
+            },
+            "kind": "required",
+            "path": "numberOfPages"
+        }
+    },
+    "_message": "Book validation failed",
+    "message": "Book validation failed: numberOfPages: Pages is required, title: Title is required",
+    "name": "ValidationError"
+}
+
